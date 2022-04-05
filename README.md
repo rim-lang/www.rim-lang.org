@@ -1,5 +1,8 @@
 # nuxt-training
 
+[![ci](https://github.com/CreatorSiSo/nuxt-training/actions/workflows/ci.yml/badge.svg)](https://github.com/CreatorSiSo/nuxt-training/actions/workflows/ci.yml)
+
+
 ## Build Setup
 
 ```bash
