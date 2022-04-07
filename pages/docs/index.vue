@@ -1,3 +1,4 @@
 <template lang="pug">
-h1 home
+  div
+    h1|docs
 </template>
