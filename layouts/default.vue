@@ -1,11 +1,8 @@
-<template>
-  <div>
-    <header>
-      <PageNavigation />
-    </header>
-    <main>
-      <Nuxt />
-    </main>
-    <footer>footer</footer>
-  </div>
+<template lang="pug">
+div
+  header
+    pagenavigation
+  main
+    nuxt
+  footer footer
 </template>
