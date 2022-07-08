@@ -1,0 +1,9 @@
+body,
+#__nuxt,
+#__layout {
+  min-height: 100vh;
+}
+
+body {
+  @apply text-zinc-900 bg-zinc-50 dark:text-zinc-100 dark:bg-zinc-900;
+}

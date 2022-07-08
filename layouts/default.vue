@@ -1,8 +1,7 @@
 <template lang="pug">
-div
-  header
-    pagenavigation
+div.flex.flex-col.min-h-screen
+  PageNavigation
   main
     nuxt
-  footer footer
+  PageFooter.mt-auto
 </template>

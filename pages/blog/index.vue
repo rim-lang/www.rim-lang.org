@@ -7,7 +7,7 @@ section.bg-black.text-neutral-200
       | Veritatis, assumenda quo debitis tenetur fuga deleniti! Debitis eaque
       | non odio. Fugiat magni minus architecto laboriosam saepe magnam
       | consectetur vel voluptatem temporibus?
-    primarybutton(to="/blog/why-we-created-__PRODUCT__")
+    PrimaryButton(to="/blog/why-we-created-__PRODUCT__")
       | Latest Post
   ul
     li Post 1

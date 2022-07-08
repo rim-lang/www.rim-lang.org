@@ -1,13 +1,13 @@
 <template lang="pug">
-.flex.w-full.p-2.text-sm.text-gray-800.border-b-2
-  nuxt-link.py-2.px-4.border.border-gray-400.rounded.bg-gray-300(to="/" class="hover:bg-gray-300")
+.flex.w-full.p-2.text-sm.border-b-2(class="bg-zinc-200 border-zinc-300 dark:bg-zinc-800 dark:border-white/5")
+  BaseButton(to="/")
     | Rim
-  nuxt-link.py-2.px-4.border.border-gray-400.rounded.bg-gray-300(to="/docs" class="hover:bg-gray-300")
+  BaseButton(to="/docs")
     | Docs
-  nuxt-link.py-2.px-4.border.border-gray-400.rounded.bg-gray-300(to="/about" class="hover:bg-gray-300")
+  BaseButton(to="/about")
     | About
-  nuxt-link.py-2.px-4.border.border-gray-400.rounded.bg-gray-300(to="/blog" class="hover:bg-gray-300")
+  BaseButton(to="/blog")
     | Blog
-  nuxt-link.ml-auto.py-2.px-4.border.border-gray-400.rounded.bg-gray-300(to="/login" class="hover:bg-gray-300")
+  BaseButton.ml-auto(to="/login")
     | Login
 </template>

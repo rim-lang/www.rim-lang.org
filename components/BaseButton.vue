@@ -1,5 +1,5 @@
 <template lang="pug">
-nuxt-link(:to="to" :class="cclass" v-if="to")
+nuxt-link(:to="to" v-if="to")
   slot
 button(v-else="")
   slot
@@ -9,7 +9,6 @@ button(v-else="")
 export default {
   props: {
     to: String,
-    cclass: String,
   },
 }
 </script>
